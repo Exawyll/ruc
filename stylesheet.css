@@ -1,0 +1,119 @@
+/* definition des polices */
+
+@font-face {
+
+    font-family: 'KaushanScript-Regular';
+    src: url('KaushanScript-Regular.otf');
+}
+
+/* Header */
+
+header {
+height: 150px;
+background: url(images/headerimg.jpg);
+box-shadow: 6px 6px 6px silver;
+}
+
+nav a {
+	color: #2D2D37;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 40px;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	width: 100%;
+}
+
+nav a:hover {
+	background-color: #EF3340;
+	/*transform: scale(1.1);*/
+}
+
+
+.logo {
+border-radius: 30px;
+margin-top: 15px;
+margin-left: 20px;
+display: inline-block;
+box-shadow: 4px 4px 4px black;
+border: 1px solid black;
+}
+
+header h1 {
+font-family: 'KaushanScript-Regular', Arial, serif;
+font-size: 3.5em;
+color: #040B44;
+position: relative;
+top: -45px;
+left: 10px;
+display: inline-block;
+}
+
+/* menu */
+
+.menu {
+float: left;
+width: 140px;
+/*position: fixed;*/
+background-image: linear-gradient(white, #C3D2D4);
+box-shadow: 3px 3px 3px silver;
+border-radius: 5px;
+}
+
+#Actu {
+text-align: center;
+}
+
+#title_actu {
+text-decoration: underline;
+}
+
+/* Bloc principal */
+
+body {
+font-family: verdana;
+background-image: radial-gradient(white, #FFFF9E);
+width: 80%;
+margin: auto;
+}
+
+#main-bloc {
+background-color: rgba(255,255,255,0.4);
+font-size: 16px;
+line-height: 24px;
+margin-left: 143px;
+padding-left: 30px;
+padding-top: 5px;
+position: relative;
+}
+
+#main-bloc h1{
+font-family: Impact, Arial, Georgia, Serif;
+text-decoration: underline;
+letter-spacing: 2px;
+}
+
+#badminton table {
+border-collapse: collapse;
+text-align: center;
+}
+
+#badminton td,th {
+padding-left: 7px;
+padding-right: 7px;
+border: 1px solid black;
+}
+
+/* footer */
+
+footer {
+background: url(images/headerimg.jpg);
+}
+
+footer h1 {
+font-size: 1.3em;
+background: url(images/headingback.png) no-repeat;
+}

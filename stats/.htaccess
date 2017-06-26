@@ -1,0 +1,7 @@
+AuthName "ruc-sports.fr statistics"
+AuthType Basic
+AuthUserFile /home/ruc-admin/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

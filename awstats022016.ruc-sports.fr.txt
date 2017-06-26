@@ -1,0 +1,312 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201602 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ruc-sports.fr.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1993                
+POS_TIME 2670                
+POS_VISITOR 6631                
+POS_DAY 7868                
+POS_DOMAIN 3290                
+POS_LOGIN 3568                
+POS_ROBOT 3723                
+POS_WORMS 4032                
+POS_EMAILSENDER 4163                
+POS_EMAILRECEIVER 4306                
+POS_SESSION 8180                
+POS_SIDER 8368                
+POS_FILETYPES 4441                
+POS_DOWNLOADS 4612                
+POS_OS 4660                
+POS_BROWSER 4769                
+POS_SCREENSIZE 5089                
+POS_UNKNOWNREFERER 5163                
+POS_UNKNOWNREFERERBROWSER 5351                
+POS_ORIGIN 5464                
+POS_SEREFERRALS 5600                
+POS_PAGEREFS 5755                
+POS_SEARCHWORDS 5941                
+POS_KEYWORDS 6093                
+POS_MISC 2334                
+POS_ERRORS 6152                
+POS_CLUSTER 3424                
+POS_SIDER_404 6262                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160301085104 30 6325 9472566801304
+FirstTime 20160202114632
+LastTime 20160229142020
+LastUpdate 20160301205504 30 29 0 0 0
+TotalVisits 28                  
+TotalUnique 19                  
+MonthHostsKnown 17                  
+MonthHostsUnknown 6                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 2 52234
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 1 1 3109 3 4 94910
+8 6 10 172048 1 3 1600
+9 11 19 180336 4 12 58726
+10 5 13 333608 3 9 58543
+11 35 73 1408259 6 48 604379
+12 2 2 1838 2 7 135257
+13 5 13 333633 0 6 52234
+14 2 6 0 0 5 130585
+15 2 6 0 1 6 79951
+16 0 0 0 1 7 132185
+17 2 6 166011 0 1 26117
+18 5 14 332651 2 5 92154
+19 0 0 0 2 8 55480
+20 45 122 353165 8 24 476932
+21 13 29 175328 4 13 188101
+22 0 0 0 0 5 130585
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+fr 86 212 1877099
+net 30 62 1019886
+ip 13 31 393365
+com 5 9 169636
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+facebook 68 1775956 20160229200251 0
+googlebot 20 404873 20160229110433 0
+favicon 11 17738 20160229090629 0
+no_user_agent 3 7800 20160211121309 0
+python 1 3109 20160223101825 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 26 40276 0 0
+css 46 19072 0 0
+png 90 585908 0 0
+html 68 79796 0 0
+jpg 44 946343 0 0
+otf 40 1788591 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 98
+linuxandroid 21
+winxp 1
+winnt 53
+Unknown 5
+linux 6
+win7 130
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+safari9.0.3 12
+chrome49.0.2623.47 11
+firefox44.0 17
+chrome48.0.2564.95 21
+chrome48.0.2564.116 94
+firefox38.0 7
+safari9.0 14
+firefox33.0 1
+mozilla 10
+firefox43.0 53
+firefox14.0.1 1
+chrome49.0.2623.39 11
+chrome27.0.1453 6
+chrome48.0.2564.103 53
+Unknown 2
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+visionutils/0.2 20160209114704
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20160225204014
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+visionutils/0.2 20160209114704
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 24 26
+From1 1 1
+From2 4 4
+From3 1 1
+From4 104 282
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://mawords.com/ruc-sports.fr 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 1 434
+206 13 157436
+404 6 2627
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/index 2 -
+/google2ed8821086a05f41.html 1 -
+/robots.txt 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 23
+arennes-656-1-241-247.w81-53.abo.wanadoo.fr 25 74 180772 20160225211119
+arennes-656-1-310-60.w86-214.abo.wanadoo.fr 23 59 339660 20160211185053
+reverse.completel.net 20 36 353983 20160229142020
+email.lemeunier.fr 14 31 672321 20160225180806
+ar036113.math.univ-rennes1.fr 11 19 176870 20160210155210
+178.251.23.125 9 21 170448 20160210214520
+kernizan.irisa.fr 8 16 173650 20160209114303
+pat35-5-78-226-57-148.fbx.proxad.net 4 12 332021 20160208114331
+pr074053.chimie.univ-rennes1.fr 3 7 167817 20160226115417
+hexatel-7-233-39-5.as51985.net 3 7 167596 20160209105727
+google-proxy-66-102-9-116.google.com 0 1 981 
+173.252.115.170 0 1 26117 
+162.244.33.8 1 1 3109 20160209074629
+199.30.228.159 1 1 1563 20160211122027
+google-proxy-66-249-93-100.google.com 1 1 1613 20160225203808
+62.23.167.198 2 6 166011 20160202135514
+google-proxy-66-102-9-2.google.com 2 2 91029 20160212101814
+google-proxy-66-249-93-96.google.com 2 2 2011 20160225204014
+lec67-4-82-235-56-238.fbx.proxad.net 1 1 275 20160211121308
+66.220.146.228 0 1 26117 
+google-proxy-66-102-9-126.google.com 0 3 74002 
+156.16.90.92.rev.sfr.net 2 6 166011 20160208172559
+vpn.novelcom.fr 2 6 166009 20160202114634
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20160202 4 12 332020 2
+20160208 52 112 1361859 7
+20160209 5 15 222939 3
+20160210 11 27 170448 2
+20160211 4 8 167849 3
+20160212 7 11 173650 2
+20160214 3 7 167622 1
+20160217 6 10 172048 1
+20160225 31 85 351036 4
+20160226 3 7 167817 1
+20160229 8 20 172698 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 2
+0s-30s 18
+30s-2mn 3
+2mn-5mn 4
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 47 58067 26 8
+/KaushanScript-Regular.otf 40 1788591 0 11
+/badminton.html 16 22561 1 2
+/tennis.html 11 14290 1 2
+/golf.html 9 9811 0 2
+/pilates.html 9 14547 0 2
+/google2ed8821086a05f41.html 2 796 0 1
+END_SIDER

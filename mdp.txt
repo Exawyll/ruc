@@ -1,0 +1,13 @@
+admin
+jXCsLYiE()BYTSt@b6
+
+
+Server FTP: ruc-sports.fr
+Login FTP: wylliam@ruc-sports.fr
+MDP FTP: #wylliampassword$
+
+mySQL
+Serveur: localhost
+Database: ruc_sports_fr
+Login: wylliam@ruc-spor
+mdp: #wylliampassword$
